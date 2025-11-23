@@ -24,7 +24,7 @@ jobs:
 
 
       - name: Upload audio
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cookies-audio
           path: cookies.mp3
